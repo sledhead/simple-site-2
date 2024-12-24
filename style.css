@@ -10,6 +10,8 @@ body {
 	color: bisque;
 	padding: 20px;
 } 
+
+
 	
 #navlist { 
 	overflow: hidden; 
@@ -43,6 +45,9 @@ body {
 
 nav {
   display: block;
+  color: aqua;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* scroll portion design */
