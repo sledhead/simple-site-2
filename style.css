@@ -53,6 +53,10 @@ nav {
 	background-color: aquamarine;
 	padding-left: 5px;
 	padding-right: 5px;
+	
+}
+
+.special-a a{
 	font-family: 'Special Elite', cursive; 
 	font-size: 18px;
 }
