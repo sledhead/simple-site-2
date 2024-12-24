@@ -45,11 +45,16 @@ body {
 
 nav {
   display: block;
-  color: aqua;
-  background-color: aquamarine;
-  padding-left: 80px;
-  padding-right: 80px;
+  
 }
+
+a {
+	
+	color: aqua;
+	background-color: aquamarine;
+	padding-left: 80px;
+	padding-right: 80px;
+  }
 
 /* scroll portion design */
 .scrollable b { 
