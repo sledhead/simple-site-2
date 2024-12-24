@@ -48,13 +48,14 @@ nav {
   
 }
 
-a {
-	
+.special-a {
 	color: aqua;
 	background-color: aquamarine;
 	padding-left: 80px;
 	padding-right: 80px;
-  }
+}
+
+
 
 /* scroll portion design */
 .scrollable b { 
