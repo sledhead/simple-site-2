@@ -1,81 +1,119 @@
  
-body { 
-	margin: 0; 
-} 
-	
-.header { 
-	text-align: center; 
-	width: 100%; 
-	background-color: beige;
-	color: bisque;
-	padding: 20px;
-} 
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
 
+::selection {
+  background: #000;
+  color: #aaf;
+}
+.alternate ::selection {
+  background: #c00;
+  color: #000;
+}
 
-	
-#navlist { 
-	overflow: hidden; 
-	background-color: #0074D9; 
-} 
-	
-/* navlist designing */
-#navlist a { 
-	float: right; 
-	display: block; 
-	color: #f2f2f2; 
-	text-align: center; 
-	padding: 14px 16px; 
-	text-decoration: none; 
-	font-size: 17px; 
-} 
-	
-/* navlist link hover effect */
-#navlist a:hover { 
-	background-color: #ddd; 
-	color: black; 
-} 
-	
-#navlist b{ 
-	margin-top: 4px; 
-	padding: 8px 12px; 
-	color:lime; 
-	float: left; 
-	font-size: 22px; 
-} 
+body {
+  margin: 0;
+  padding: 0;
+  height: 2000px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul, li, h1, h2, h3, h4, h5, h6, p, a, .logo {
+  font-family: "Lato","Verdana",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.inner {
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding-top: 50px;
+  background: #000;
+  transition: 0.7s all;
+  z-index: 100;
+}
+
+header.alt-header {
+  background: #fff;
+}
+
+.alt-header a {
+  color: #000;
+}
+
+body.header-fixed header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+li {
+  list-style: none;
+}
 
 nav {
-  display: block;
-  
+  overflow: hidden;
 }
 
-.special-a {
-	color: rgb(19, 22, 22);
-	background-color: aquamarine;
-	padding-left: 5px;
-	padding-right: 5px;
-	
+nav ul {
+  float: right;
 }
 
-.special-a a{
-	font-family: verdana; 
-	font-size: 28px;
+nav li {
+  display: inline;
+  float: left;
 }
 
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 25px;
+  transition: 0.3s all;
+}
 
+nav a:hover {
+  background: red;
+}
 
-/* scroll portion design */
-.scrollable b { 
-	font-family: 'Special Elite', cursive; 
-	font-size: 28px; 
-} 
-	
-.content { 
-	padding: 16px; 
-} 
-	
-.sticky { 
-	position: fixed; 
-	top: 0; 
-	width: 100%; 
-} 
+.logo {
+  float: left;
+  color: #fff;
+  font-size: 50px;
+  line-height: 50px;
+  transition: 0.7s all;
+}
+
+.alt-header .logo {
+  color: #000;
+}
+
+body.header-fixed .logo {
+  font-size: 30px;
+}
+
+.alternate {
+  background: #000;
+  color: #fff;
+}
+
+section .inner {
+  padding-top: 200px;
+}
+ 
 
