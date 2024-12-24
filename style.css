@@ -38,6 +38,10 @@ body {
 	font-size: 22px; 
 } 
 
+nav {
+  display: block;
+}
+
 /* scroll portion design */
 .scrollable b { 
 	font-family: 'Special Elite', cursive; 
