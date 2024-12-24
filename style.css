@@ -6,6 +6,8 @@ body {
 .header { 
 	text-align: center; 
 	width: 100%; 
+	background-color: beige;
+	padding: 20px;
 } 
 	
 #navlist { 
