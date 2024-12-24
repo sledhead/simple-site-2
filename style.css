@@ -46,8 +46,9 @@ body {
 nav {
   display: block;
   color: aqua;
-  padding-left: 20px;
-  padding-right: 20px;
+  background-color: aquamarine;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 /* scroll portion design */
