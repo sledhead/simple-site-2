@@ -1,0 +1,27 @@
+.div-bar {
+  
+    padding: 20px;
+    border: 5px solid green;
+    background-color: lightblue;
+    position: sticky;
+    top: 0;
+    margin: 0px;
+    
+  }
+  
+  .div-bar a {
+    width: 25%;
+    display: block;
+    float:left;
+    text-align: center;
+  }
+  
+  .div-dummy-text {
+    max-width: 300px;
+    margin: auto;
+    padding: 55px;
+  }
+  
+  .div-dummy-text p {
+    padding: 5px;
+  }
