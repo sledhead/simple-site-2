@@ -72,6 +72,8 @@ nav {
 
 nav ul {
   float: right;
+  border: 5px;
+  border-color: bisque;
 }
 
 nav li {
