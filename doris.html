@@ -1,0 +1,142 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title>Klempel Farm Life</title> 
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+      $(window).scroll(function(){
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop > 49) {
+            $('body').addClass('header-fixed');
+        } else {
+            $('body').removeClass('header-fixed');
+        }
+        // change the style of the navbar when the user scrolls into the next zone.
+        // get the distance of the 2nd section from the top of the page - height of header.
+        var topOffset = $('#demosection2').offset().top;
+        var headerHeight = $('#topnav').height();
+        var transitionPoint = topOffset - headerHeight;
+        if (scrollTop > transitionPoint) {
+            $('#topnav').addClass('alt-header');
+        } else {
+            $('#topnav').removeClass('alt-header');
+        }
+      });
+});
+	</script>
+</head> 
+
+<body> 
+	
+
+	<header id="topnav">
+  <div class="inner">
+    <div class="logo">Klempel Farm</div>
+    <nav role='navigation'>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu_four.html">About</a></li>
+        <li><a href="clients.html">Clients</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>  
+  </div>
+</header>
+<section>
+  <div class="inner">
+    <h1>Life on the Farm</h1>
+    <p>
+      **"A Song for the Land"**
+
+The sun hung low over the quiet fields outside Bigfork, casting long shadows across the land that stretched for miles in every direction. The heat of the day had started to fade, and the crisp evening air began to settle in, a welcome relief after a long, backbreaking day in the hayfields. On the porch of a weathered farmhouse, two sisters sat, worn but content.
+
+Doris, the older of the two, leaned back in her chair, her arms folded across her chest, a peaceful smile on her face. Her sun-bleached hair was tied up in a loose knot, strands falling around her face, framing her high cheekbones. Her hands, though calloused from years of farm work, held a quiet grace as she rested them in her lap. 
+
+Beside her, Omi, the younger sister, strummed her guitar gently. The guitar was a little worn too, its wooden frame polished by the touch of time and use. Omi’s fingers danced across the strings with an ease that made it seem as though the guitar were an extension of herself. Her freckled face was flushed from the work, but her eyes sparkled with the joy of the evening’s music. She was sixteen, just beginning to fill out into the woman she would become, though there was still a bit of childhood in her laugh, in the way she tossed her head back and let her voice rise and fall like the hills around them.
+
+The day had been long. The hot sun had made the work harder than usual. The hay had been stubborn, stubborn enough to make Doris’s back ache with every load they lifted onto the wagon, but they had finished it, just as they always did. Together. The cows would have fresh hay for weeks, and their hard work would keep the farm steady.
+
+Now, the air had settled into something softer, the evening breeze carrying the scent of wildflowers and the rich earth of the land they worked. They sat in the stillness, a momentary break from the weight of life, just the two of them on the porch.
+
+Omi plucked a few chords and started to hum under her breath. Doris leaned forward, her hands on her knees. The rhythm felt familiar, the melody comforting.
+
+“You startin’ that one again?” Doris asked, her voice soft, teasing.
+
+Omi grinned, her fingers catching on a wrong note before she fixed it. “It’s my favorite. You know that.” She picked out the tune again, her smile bright as she turned to her sister. “C’mon, sing it with me.”
+
+Doris hesitated only a moment before joining in, her voice rising clear and strong in the evening air.
+
+**“Amazing grace, how sweet the sound,  
+That saved a wretch like me...”**
+
+Their voices harmonized effortlessly, blending in the way they had when they were children, sitting around the kitchen table while their mother worked on supper. Their voices weren’t perfect—not like the ones they’d heard in church, polished and full of training—but they didn’t need to be. In the fading light of the evening, surrounded by the vastness of the land, the song felt as though it were rising from the very earth beneath their feet.
+
+Omi’s fingers worked the guitar’s strings with ease, her mind as much on the music as on the rhythm of the world around them. She wasn’t thinking of how the day had been, or how the next would come, or of anything that didn’t belong to this moment. All that mattered now was the sound of the song, the voice of her sister beside her, and the peacefulness that came with being home.
+
+Doris let the last note of the hymn trail off into the night air, the silence that followed filled with the sounds of crickets and the soft rustle of leaves. She closed her eyes, savoring the brief moment of stillness before turning to Omi with a smirk.
+
+“I still don’t know how you get those chords to sound like that,” Doris said, shaking her head. “I don’t think I’ve ever heard a guitar sound so… sweet.”
+
+Omi laughed, her voice light, teasing. “You just have to know the way the strings like to be talked to.”
+
+Doris rolled her eyes but couldn’t help the smile that tugged at her lips. She picked up the song again, starting from the beginning, but this time Omi joined in with a harmony that seemed to rise from the very earth beneath them, lifting their voices together into the dusk.
+
+The stars would come soon, bright and clear in the crisp Montana sky. But for now, the only light was the soft glow of the porch light, the warmth between the sisters, and the song that filled the air with a quiet hope.
+
+---
+
+**“I once was lost, but now am found,  
+Was blind, but now I see...”**
+
+And in that moment, the world outside the porch—a world of sweat, hard work, and the trials of the land—seemed far away, fading into nothingness. All that mattered was the song, and the bond they shared.
+    </p>
+  </div>
+</section>
+<section class="alternate" id="demosection2">
+  <div class="inner">
+    <h1>Demo section 2</h1>
+    <p><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo cupiditate voluptates eveniet reiciendis eum dicta non obcaecati corrupti harum deserunt deleniti quae aspernatur porro labore ipsum possimus tempore tenetur consequuntur!</span>
+    <span>Modi mollitia tempora ipsa quas asperiores voluptate in vero quae dolorem ullam aliquid hic a saepe fugiat eaque totam aut! Sint consequatur architecto maxime accusantium magnam ipsa libero perspiciatis quisquam.</span>
+    <span>Nulla incidunt dolor amet impedit officia a neque quibusdam culpa excepturi libero magnam nam temporibus similique nostrum sed eaque quos suscipit enim ea iste tenetur nemo corrupti modi? Ducimus dolore!</span>
+    <span>Autem at dolorum nam vitae harum soluta non eos nostrum odit quia nesciunt neque adipisci quibusdam deserunt fugiat eius est perspiciatis minus eveniet ex commodi explicabo totam magnam possimus molestias.</span>
+    <span>Soluta dolorum optio sit tenetur omnis a mollitia aliquam! Delectus tempore dicta unde repudiandae beatae velit amet facere perferendis fugit deleniti maxime nihil magnam reprehenderit reiciendis eveniet ut voluptas iste.</span>
+    <span>Cumque ad molestias sunt error veniam sapiente ea beatae alias! Quam delectus vel quibusdam dolor cumque inventore laboriosam quos itaque odio nulla eum cupiditate explicabo cum nostrum architecto aliquid totam.</span>
+    <span>Optio nisi voluptas id blanditiis vero rerum nulla iusto eligendi ducimus illum odio fuga ullam quod quo totam architecto dolorem minus repudiandae asperiores consequatur culpa atque sapiente sint reprehenderit error.</span>
+    <span>Eveniet magnam fugit at consequatur quidem laudantium facere illum nesciunt modi ab earum temporibus autem consequuntur minus ex sapiente cum tenetur excepturi saepe accusamus sint error est officia perferendis veritatis.</span>
+    <span>Corporis veniam laudantium ut assumenda facilis voluptas tenetur ea vero error velit sint aperiam officiis quibusdam voluptates quia delectus distinctio nemo. Dolores molestias eligendi pariatur iste doloribus distinctio perspiciatis libero.</span>
+    <span>Quo nobis quis reiciendis illum veritatis consectetur iure totam in libero ipsa repellat odio natus reprehenderit similique facere saepe quia consequuntur harum asperiores modi! Blanditiis vitae natus eligendi facere voluptates.</span>
+    <span>Adipisci necessitatibus id a commodi beatae labore voluptas accusantium explicabo porro dicta repudiandae ducimus molestias delectus fugit officiis omnis rem earum voluptates quia sunt! Quasi magnam itaque veritatis voluptatem nobis.</span>
+    <span>Nihil voluptatem repellat commodi neque natus a odit esse architecto sunt quod dignissimos reiciendis dolores iste nisi deleniti inventore vero fugiat dolor vitae nobis animi pariatur porro laborum qui repellendus?</span>
+    <span>Minus quos voluptatem vel suscipit recusandae expedita tempora ullam ratione officiis nam consectetur neque modi ex blanditiis veritatis reiciendis nobis nesciunt totam placeat nisi saepe repellat unde ipsam animi accusantium!</span>
+    <span>Quam non optio quasi velit fugiat ex repudiandae. Autem perspiciatis cupiditate explicabo quidem maiores tempore consequuntur officia dolores nemo sunt atque accusantium sint! Est consequuntur quod autem dolore nam unde?</span>
+    <span>Suscipit assumenda esse facere quis vero accusantium asperiores sapiente quo qui soluta explicabo reprehenderit quod eligendi obcaecati eius excepturi dolorum. Nihil a repellat adipisci magnam harum doloremque recusandae aperiam sunt?</span>
+    <span>Omnis doloribus ab unde vero molestiae similique aspernatur maxime. Commodi consectetur voluptatum excepturi ab nisi ipsam pariatur minus obcaecati soluta accusantium hic error vitae minima praesentium veniam tempora libero sapiente.</span>
+    <span>Excepturi voluptates culpa adipisci fuga quisquam doloribus commodi est odio debitis explicabo aliquam cumque rem eos fugit aperiam soluta possimus laboriosam dolore porro voluptatum incidunt sapiente totam sit natus dicta!</span>
+    <span>Laborum accusamus eveniet perferendis assumenda quia esse amet architecto quidem neque ipsam ab omnis sed magni optio dicta iusto facilis unde ullam et corrupti. Numquam assumenda reprehenderit quidem eveniet laboriosam!</span>
+    <span>Voluptate eum amet maiores eligendi quibusdam ab fugit. Delectus repudiandae rerum voluptatum nam impedit modi suscipit magnam deleniti voluptates corporis pariatur facilis quis provident alias voluptatibus assumenda recusandae adipisci sed.</span>
+    <span>Voluptatum iste odio deleniti quisquam aliquid ullam est eligendi dignissimos placeat assumenda! Ipsam eveniet quos dolor pariatur vel reiciendis earum aut beatae incidunt ducimus magni provident non dignissimos temporibus voluptatibus!</span>
+    <span>Tenetur sed voluptas commodi adipisci maiores inventore corrupti reprehenderit repudiandae incidunt laboriosam. Ratione nam atque eum dolore doloribus officia quae modi cumque consequatur esse voluptatem officiis commodi recusandae. Nihil quibusdam?</span>
+    <span>Consequatur velit odit dolore dicta labore. Itaque id rem quod unde magni sunt quibusdam reprehenderit animi quisquam voluptas perspiciatis corporis quia repellendus recusandae dolore error perferendis ipsum fugiat molestiae non?</span>
+    <span>Minima quaerat vel molestias eligendi odit autem deleniti earum. Obcaecati adipisci pariatur ullam ex recusandae vero ipsum aliquid hic fuga sapiente quis fugiat quaerat tempore. Placeat sint expedita adipisci eum.</span>
+    <span>Deleniti odit aperiam nihil neque! Neque sapiente laudantium error dolore tenetur voluptatibus reprehenderit maiores sit quasi modi fugit aliquam sint itaque nisi iure delectus voluptatem doloremque architecto reiciendis repellendus nam?</span>
+    <span>Iste non voluptas excepturi aperiam nisi rerum consequatur reiciendis fugit debitis nulla unde cumque neque eos. Qui earum vel quasi dolorum dignissimos doloribus voluptates laborum porro incidunt aliquid rerum minima?</span>
+    <span>Eveniet odit accusantium ratione dolorem mollitia sunt dolorum ullam suscipit laborum laudantium ex doloribus aliquam ducimus minus vel esse adipisci veniam harum doloremque officiis vitae aliquid maxime aperiam quidem id.</span>
+    <span>Quae quos impedit. Et nobis vero aliquid modi rem provident illum distinctio aut corporis quos quas hic harum tempore saepe numquam voluptate eveniet tenetur incidunt aperiam perferendis unde iste ut!</span>
+    <span>Voluptate quod maiores voluptatem quo fugit laboriosam nisi quaerat doloremque voluptatum. Debitis id ab nesciunt ipsam illum quos unde aut dicta nihil labore et fuga necessitatibus sapiente voluptatem iure quia.</span>
+    <span>In animi ipsam cumque sequi officia natus veritatis optio assumenda officiis labore velit molestiae deserunt aliquam ducimus dolorem similique eaque recusandae atque distinctio aspernatur magni nobis mollitia dignissimos enim sit.</span>
+    <span>Adipisci commodi quae assumenda reprehenderit dolorem mollitia facilis quod iure ratione sunt minus ipsum laudantium enim distinctio est! Similique et nostrum cum modi nemo ipsam doloremque repellendus ipsa reiciendis rem.</span>
+    <span>Recusandae explicabo culpa voluptatem obcaecati delectus rerum nesciunt eos reiciendis excepturi molestiae dignissimos voluptatum! Esse illo veritatis voluptatem cum quo ad quas hic sunt impedit optio laborum amet nobis quos.</span>
+    <span>Unde iste ea officiis illo hic natus alias iusto aut beatae quasi ut ratione dolorem at facere laborum corrupti vel ipsam reprehenderit vitae labore eos voluptates veritatis sed sunt doloremque!</span></p>
+  </div>
+</section>
+</body> 
+
+</html>
