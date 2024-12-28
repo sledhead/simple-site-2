@@ -116,5 +116,14 @@ body.header-fixed .logo {
 section .inner {
   padding-top: 200px;
 }
+
+@media (max-width: 40em) {
+  .inner {
+    
+    
+    background-color: lightyellow;
+   padding-left: 20px;
+   padding-right: 20px;
+  }
  
 
