@@ -122,6 +122,18 @@ section .inner {
   font-style: italic;
 }
 
+.sp-footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.page-details {
+  text-align: right;
+  font-style: italic;
+}
+
 @media (max-width: 40em) {
   .inner {
     
