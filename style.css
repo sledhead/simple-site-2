@@ -134,6 +134,11 @@ section .inner {
   font-style: italic;
 }
 
+.hr-line {
+  border: 7px solid gray;
+  border-radius: 5px;
+}
+
 @media (max-width: 40em) {
   .inner {
     
