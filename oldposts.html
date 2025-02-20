@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title>Klempel Farm Life</title> 
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+      $(window).scroll(function(){
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop > 49) {
+            $('body').addClass('header-fixed');
+        } else {
+            $('body').removeClass('header-fixed');
+        }
+        // change the style of the navbar when the user scrolls into the next zone.
+        // get the distance of the 2nd section from the top of the page - height of header.
+        var topOffset = $('#demosection2').offset().top;
+        var headerHeight = $('#topnav').height();
+        var transitionPoint = topOffset - headerHeight;
+        if (scrollTop > transitionPoint) {
+            $('#topnav').addClass('alt-header');
+        } else {
+            $('#topnav').removeClass('alt-header');
+        }
+      });
+});
+	</script>
+</head> 
+
+<body> 
+	
+
+	<header id="topnav">
+  <div class="inner">
+    <div class="logo">Klempel Farm</div>
+    <nav role='navigation'>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu_four.html">About</a></li>
+        <li><a href="clients.html">Clients</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>  
+  </div>
+</header>
+<section>
+  <div class="page-bckgnd-color">
+    <h1>Test Section</h1>
+  </div>
+</section>
+
+<footer class="sp-footer">
+  <p>&copy; 2024 Klempel History Site. All rights reserved.</p>
+</footer>
+
+</body> 
+
+</html>

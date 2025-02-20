@@ -140,6 +140,8 @@ section .inner {
   border-radius: 5px;
 }
 
+
+
 @media (max-width: 40em) {
   .inner {
     
