@@ -172,7 +172,8 @@ section .inner {
 }
 
 .post-button {
-  margin: auto;
+  text-align: center;
+  grid-column: 1 / span 2;
 }
 
 .button-link {
