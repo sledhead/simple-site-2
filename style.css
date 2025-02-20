@@ -142,14 +142,14 @@ section .inner {
 
 .page-bckgnd-color {
   background-color: beige;
-  padding: 10px;
+  padding: 20px;
 }
 
 .post-container {
   display: grid;
   grid-template-columns: auto auto;
   gap: 10px;
-  background-color: dodgerblue;
+  background-color: rgb(255, 214, 30);
   padding: 10px;
 }
 
@@ -157,7 +157,30 @@ section .inner {
   
   text-align: center;
   padding: 10px;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.post-list {
+  text-align: center;
+  font-size: 35px;
+  padding: 25px;
+}
+
+.post-button {
+  text-align: center;
+}
+
+.button-link {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .item-info {
