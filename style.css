@@ -142,6 +142,7 @@ section .inner {
 
 .page-bckgnd-color {
   background-color: beige;
+  padding: 10px;
 }
 
 .post-container {
@@ -153,15 +154,15 @@ section .inner {
 }
 
 .post-container > div {
-  background-color: #f1f1f1;
+  
   text-align: center;
   padding: 10px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .item-info {
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column: 1 / span 2;
+  
 }
 
 @media (max-width: 40em) {
