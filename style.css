@@ -144,6 +144,26 @@ section .inner {
   background-color: beige;
 }
 
+.post-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+
+.post-container > div {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.item-info {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
 @media (max-width: 40em) {
   .inner {
     
