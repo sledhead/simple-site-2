@@ -169,6 +169,7 @@ section .inner {
 .post-title {
   font-size: 25px;
   font-weight: bold;
+  text-align: center;
 }
 
 .post-button {
