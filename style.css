@@ -140,7 +140,9 @@ section .inner {
   border-radius: 5px;
 }
 
-
+.page-bckgnd-color {
+  background-color: beige;
+}
 
 @media (max-width: 40em) {
   .inner {
