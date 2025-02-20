@@ -151,6 +151,8 @@ section .inner {
   gap: 10px;
   background-color: rgba(255, 214, 30, 0.596);
   padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .post-container > div {
