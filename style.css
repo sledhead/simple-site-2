@@ -149,7 +149,7 @@ section .inner {
   display: grid;
   grid-template-columns: auto auto;
   gap: 10px;
-  background-color: rgb(255, 214, 30);
+  background-color: rgba(255, 214, 30, 0.596);
   padding: 10px;
 }
 
@@ -166,8 +166,13 @@ section .inner {
   padding: 25px;
 }
 
+.post-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .post-button {
-  text-align: center;
+  margin: auto;
 }
 
 .button-link {
@@ -181,6 +186,7 @@ section .inner {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .item-info {
