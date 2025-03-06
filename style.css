@@ -198,6 +198,10 @@ section .inner {
   
 }
 
+.active-page {
+  
+}
+
 @media (max-width: 40em) {
   .inner {
     
